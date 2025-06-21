@@ -2,7 +2,7 @@ name: Build, Push and Deploy Docker Image
 run-name: Build, Push and Deploy Image
 on: [push]
 env: 
-  IMAGE_NAME: "ghcr.io/Satyasy/nginx-novra"
+  IMAGE_NAME: "ghcr.io/satyasy/nginx-novra"
 jobs:
   build-push-image:
     runs-on: ubuntu-latest
