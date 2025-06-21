@@ -1,5 +1,5 @@
 services:
   webserver:
-    image: ghcr.io/Satyasy/nginx-novra
+    image: ghcr.io/satyasy/nginx-novra
     ports:
       - "8080:80"
